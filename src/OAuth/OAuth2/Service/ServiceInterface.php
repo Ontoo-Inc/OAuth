@@ -21,6 +21,8 @@ interface ServiceInterface extends BaseServiceInterface
     const AUTHORIZATION_METHOD_HEADER_BEARER   = 1;
     const AUTHORIZATION_METHOD_QUERY_STRING    = 2;
     const AUTHORIZATION_METHOD_QUERY_STRING_V2 = 3;
+    const AUTHORIZATION_METHOD_HEADER_WEIBO    = 4;
+
 
     /**
      * @param \OAuth\Common\Consumer\Credentials $credentials
